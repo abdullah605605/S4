@@ -1,100 +1,106 @@
+<!--
+    Centria Edu - Basics of Web Development
+
+    Original author: Ville Heikkiniemi
+    Modified by: Student Name
+    Last modified: 2026-08-11
+
+    Based on the original course template.
+
+    https://vheikkiniemi.github.io/thiscanbedeleted/s4/
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Abdullah Ansar - S3 Website</title>
-
+    <meta name="author" content="Ville Heikkiniemi">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="fav.ico">
+
+    <title>Centria Edu | Basics of Web Development</title>
 </head>
 
 <body>
 
     <header>
-        <h1>Basics of Web Development</h1>
-        <p>Start Page - S3 Website Development</p>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    centria <span>edu</span>
+                </div>
+
+                <ul>
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="#topics">Topics</a></li>
+
+                    
+
+                    <li><a href="#">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
 
-        <div class="card">
-            <h2>About Me</h2>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
 
-            <p>
-                My name is Abdullah Ansar. I am learning the basics of
-                web development and practicing HTML, CSS, Visual Studio Code,
-                and GitHub Pages.
-            </p>
+                    <span class="label">Basics of Web Development</span>
 
-            <p>
-                <strong>Modified by:</strong> Abdullah Ansar
-            </p>
-        </div>
+                    <h1>
+                        Learn how the web works.
+                    </h1>
+ <h3> Abdullah Ansar</h3>
+                    <p>
+                        Start from HTML and CSS and gradually build modern,
+                        responsive and interactive web applications.
+                    </p>
 
-         <div class="card">
-            <h2>Gallery</h2>
+                    <a href="#topics" class="button">
+                        Start learning
+                    </a>
 
-            <p>
-               Click here to see gallery of my work: <a id="gbutton" href="gallery.html">Gallery</a>
-            </p>
+                </div>
+            </div>
+        </section>
 
-            <p>
-                <strong>Modified by:</strong> Abdullah Ansar
-            </p>
-        </div>
+        <section class="topics" id="topics">
+            <div class="container">
 
+                <h2>What we will learn</h2>
 
-        <div class="card">
-            <h2>My Learning</h2>
+                <div class="cards">
 
-            <p>Here are some tools and technologies I have learned:</p>
+                    <article class="card">
+                        <h3>HTML</h3>
+                        <p>
+                            Learn how to structure web pages using semantic HTML.
+                        </p>
+                    </article>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Visual Studio Code</li>
-                <li>Live Server</li>
-                <li>GitHub Pages</li>
-            </ul>
-        </div>
+                    <article class="card">
+                        <h3>CSS</h3>
+                        <p>
+                            Learn how to style layouts, colors, typography and
+                            responsive interfaces.
+                        </p>
+                    </article>
 
-
-        <div class="card">
-            <h2>My Work Process</h2>
-
-            <p>These are the main steps I follow when developing a webpage:</p>
-
-            <ol>
-                <li>Create the HTML structure.</li>
-                <li>Add CSS to style the webpage.</li>
-                <li>Test the website using Live Server.</li>
-                <li>Upload the project to GitHub.</li>
-                <li>Publish the website using GitHub Pages.</li>
-            </ol>
-        </div>
-
-
-        <div class="card">
-            <h2>Future Learning Goals</h2>
-
-            <p>
-                I want to continue improving my web development skills and
-                learn more advanced technologies.
-            </p>
-
-            <ul>
-                <li>JavaScript</li>
-                <li>Responsive Web Design</li>
-                <li>Git and GitHub</li>
-            </ul>
-        </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
     <footer>
-        <p>© 2026 Abdullah Ansar | S3 Website Development</p>
+        <div class="container">
+          <p>&copy; Abdullah Ansar 2026 Centria Edu</p>
+        </div>
     </footer>
 
 </body>
